@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  text-align: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.even-odd-txt {
+  color: #334155;
+  font-family: 'Roboto';
+}
+.button {
+  color: #0f172a;
+  border: 0px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.message {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
